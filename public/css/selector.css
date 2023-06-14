@@ -1,0 +1,83 @@
+html {
+    max-width: 720px;
+  }
+  
+  #test:target {
+    color: red;
+  }
+  
+  .link:link {
+    color: red;
+  }
+  
+  .link:hover {
+    color: green;
+  }
+  
+  .link:active {
+    color: blue;
+  }
+  
+  input:focus {
+    background-color: red;
+  }
+  
+  .card:focus-within {
+    background: red;
+  }
+  
+  .card:lang(en) {
+    background: blue;
+  }
+  
+  button {
+    background-color: lime;
+  }
+  
+  button:enabled {
+    background-color: green;
+  }
+  
+  button:disabled {
+    background-color: blueviolet;
+  }
+  
+  .inp:read-write {
+    background-color: blue;
+  }
+  
+  .inp:read-only {
+    background-color: red;
+  }
+  
+  input[type='checkbox']:checked ~ span {
+    background: red;
+  }
+  
+  .valid:valid {
+    background: yellowgreen;
+  }
+  
+  .valid:invalid {
+    background: rgb(205, 50, 71);
+  }
+  
+  .valid:optional {
+    background: rgb(35, 190, 68);
+  }
+  
+  .number:focus {
+    background: yellowgreen;
+  }
+  
+  .number:out-of-range {
+    background: red;
+  }
+  
+  .number:in-range {
+    background: green;
+  }
+  
+  input:placeholder-shown ~ span {
+    background: pink;
+  }
