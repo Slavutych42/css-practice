@@ -9,19 +9,29 @@
         </nav>
     {{> divider}}
 </header>
+
+
+
 {{#with hero}}
     <div class="hero">
         <div class="hero_content">
             <h1 class="hero_title">{{title}}</h1>
             <p class="hero_text">{{text}}</p>
         </div>
-        <img src="{{photo}}" alt="hero image" class="hero_image">
+        <div class="hero_slider">
+            <img src="{{photo}}" alt="hero image" class="hero_image">
+            <div class="hero_slider_icon hero_slider_left">{{left}}</div>
+            <div class="hero_slider_icon hero_slider_right">{{right}}</div>
+        </div>
     </div>
 {{/with}}
+<div class="modal">
+    <div class="modal_text">{{hero.text}}</div>
+</div>
 <main class="blog">
     {{#each blog}}
         <div class="card">
-            <div class="card_image" style="background-image: url {{{img}}}"></div>
+            <img class="card_image"{{photo}}>
             <h2 class="card_title">{{title}}</h2>
             <p class="card_text">{{text}}</p>
             <a href="{{href}}" class="button card_button">{{button}}</a>
