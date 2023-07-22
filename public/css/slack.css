@@ -1,0 +1,237 @@
+.page {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.hero_section {
+    margin-top: 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+    margin-bottom: 60px;
+}
+
+.hero_image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero_label {
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.hero_title {
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    width: 425px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.hero_info {
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.2px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.hero_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.button {
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button_primary {
+    display: flex;
+    padding: 20px 20px;
+    align-items: flex-start;
+    background: #611F69;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button_secondary {
+    display: flex;
+    padding: 19px 52.23px 19.98px 51px;
+    align-items: flex-start;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 0px 0px 1px #611F69 inset;
+    color: #611F69;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.click {
+    transform: opacity 1s;
+}
+
+.click:hover {
+    opacity: 0,7;
+    cursor: pointer;
+}
+
+.click:active {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.brands_image {
+    width: min-content;
+    height: min-content;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_section_light {
+    background-color: #F4EDE4;
+    width: 100%;
+}
+
+.features_section {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.features_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.features_title {
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.3px;
+}
+
+.features_description {
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    width: 520px;
+}
+
+.features_image {
+    display: flex;
+    flex-direction: column;
+}
+
+.features_grid_4 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 16px;
+    bottom: 0;
+}
+
+.feat_card:first-of-type {
+    grid-row: 1 / 3;
+    width: 300px;
+    height: 250px;
+}
+
+.feat_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: min-content;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+    width: auto;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
+.icon_arrow {
+    width: 24px;
+    height: 14px;
+    display: block;
+    background-image: url(/svg/image.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.feat_card_title {
+    color: #1D1C1D;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+}
+
+.feat_card_description {
+    color: #1D1C1D;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+}
+
